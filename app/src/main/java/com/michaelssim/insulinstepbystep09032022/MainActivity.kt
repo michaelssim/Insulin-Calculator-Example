@@ -25,22 +25,20 @@ class MainActivity : AppCompatActivity() {
 
         etTarget.addTextChangedListener(object: TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
-
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
 
-            override fun afterTextChanged(p0: Editable?) {
-                Log.i(TAG, "afterTextChanged from etTarget: $p0")
+            override fun afterTextChanged(s: Editable?) {
+                Log.i(TAG, "afterTextChanged from etTarget: $s")
                 calculateTotal()
             }
         })
 
         etCurrent.addTextChangedListener(object: TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
-
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
 
-            override fun afterTextChanged(p0: Editable?) {
-                Log.i(TAG, "afterTextChanged from etCurrent: $p0")
+            override fun afterTextChanged(s: Editable?) {
+                Log.i(TAG, "afterTextChanged from etCurrent: $s")
                 calculateTotal()
             }
         })
