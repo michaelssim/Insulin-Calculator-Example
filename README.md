@@ -1,6 +1,6 @@
 # Insulin Calculator Demo for Robert
 
-This is a simple Android app that demonstrates basic programming concepts like conditionals and basic Android UI workflow by taking the user's inputs (`target` & `current`) and outputting a total value (correction)
+This is a simple Android app that demonstrates basic programming concepts like conditionals and basic Android UI workflow by taking the user's inputs (`target` & `current`) and outputting a total value (`correction`)
 
 At its current state, it is NOT a true insulin caculator yet. All it does is takes the `target` value and subtracts `current` value to calculate the `correction` value.
 
