@@ -6,7 +6,7 @@ At its current state, it is NOT a true insulin caculator yet. All it does is tak
 
 To make the app user-friendly, the `correction` value's color changes to indicate a positive value vs. a negative one. Check the comments to see how that works and see if you can expand it!
 
-![](appDemoAnimation.gif)
+![](appDemoAnimation.gif | width=300)
 
 Features:
 - Pure Kotlin
