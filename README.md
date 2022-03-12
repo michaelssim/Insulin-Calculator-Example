@@ -7,7 +7,7 @@ At its current state, it is NOT a true insulin caculator yet. All it does is tak
 To make the app user-friendly, the `correction` value's color changes to indicate a positive value vs. a negative one. Check the comments to see how that works and see if you can expand it!
 
 <p float="middle">
-    <img src="https://raw.githubusercontent.com/michaelssim/Insulin-Calculator-Example/main/appDemoAnimation.gif width="300">
+    <img src="https://raw.githubusercontent.com/michaelssim/Insulin-Calculator-Example/main/appDemoAnimation.gif" width="300">
 </p>
 
 Features:
